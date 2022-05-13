@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio id="myAudio" controls autoplay>
+        <source src="Audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <img src="speech.png" alt="elephantSpeech" id="speech">
+    <div id="navbar">
+        <h1 id="mainHead">Coorg Wildlife Museum</h1>
+        <div id="navbar2">
+            <a href="#" class="tile" id="home">Home</a>
+            <a href="#" class="tile">About</a>
+            <a href="#" class="tile">Contact</a>
+        </div>
+    </div>
+    <div id="containerImage"></div>
+    <canvas class="webgl">
+
+    </canvas>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/105/three.min.js"
+        integrity="sha512-uWKImujbh9CwNa8Eey5s8vlHDB4o1HhrVszkympkm5ciYTnUEQv3t4QHU02CUqPtdKTg62FsHo12x63q6u0wmg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="panolens.min.js"></script>
+    <script src="https://rawcdn.githack.com/mrdoob/three.js/r105/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="OrbitControls.js"></script>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>

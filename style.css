@@ -1,0 +1,48 @@
+*{
+    padding: 0vw;
+    margin: 0vw;
+}
+#containerImage{
+    height: 50vw;
+    width: 100%;
+}
+
+#navbar{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 2vw;
+    background-color: #171717;
+}
+
+#navbar2{
+    position: absolute;
+    left: 70vw;
+}
+.tile{
+    padding-left: 5vw;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    text-decoration: none;
+}
+#home{
+    padding-left: 0vw;
+    border-bottom: 0.1vw solid white;
+}
+
+#mainHead{
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-weight: bold;
+
+}
+#myAudio{
+    display: none;
+}
+#speech{
+    position: absolute;
+    top: 60vw;
+    left: -10vw;
+    height: 65%;
+    width: 45%;
+}
